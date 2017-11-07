@@ -9,9 +9,11 @@ namespace RazorPagesMovie.Pages
 {
     public class IndexModel : PageModel
     {
+        public string Message { get; private set; } = "STRIIIIIIIIIIIIIIIIING";
+
         public void OnGet()
         {
-
+            Message += "More striiiiiiiiiiiiiiiiiiiiiiiiiiiiiings.";
         }
     }
 }

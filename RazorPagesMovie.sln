@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie.csproj", "{8B2B0C6E-BCAD-44E1-84DE-E53801E149BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie.csproj", "{8B2B0C6E-BCAD-44E1-84DE-E53801E149BA}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RazorPagesDatabase", "RazorPagesDatabase\RazorPagesDatabase.sqlproj", "{BF53D1BD-8FB6-428D-BA95-813FB66A0AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie.Common", "RazorPagesMovie.Common\RazorPagesMovie.Common.csproj", "{ADE88AE7-0881-4134-87B1-26827B067EB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,16 @@ Global
 		{8B2B0C6E-BCAD-44E1-84DE-E53801E149BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B2B0C6E-BCAD-44E1-84DE-E53801E149BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B2B0C6E-BCAD-44E1-84DE-E53801E149BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF53D1BD-8FB6-428D-BA95-813FB66A0AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF53D1BD-8FB6-428D-BA95-813FB66A0AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF53D1BD-8FB6-428D-BA95-813FB66A0AEF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BF53D1BD-8FB6-428D-BA95-813FB66A0AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF53D1BD-8FB6-428D-BA95-813FB66A0AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF53D1BD-8FB6-428D-BA95-813FB66A0AEF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ADE88AE7-0881-4134-87B1-26827B067EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE88AE7-0881-4134-87B1-26827B067EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE88AE7-0881-4134-87B1-26827B067EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE88AE7-0881-4134-87B1-26827B067EB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
