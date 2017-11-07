@@ -30,7 +30,7 @@ bld/
 #wwwroot/
 
 #VS Code
-.vscode
+.vscode/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
